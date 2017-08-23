@@ -4,3 +4,5 @@ amazon_html = requests.get(url,headers = header ,verify=False)
 
 for tage in soup.find_all("a"):
     print(tage.get("href"))
+    
+    //*[@id="result_0"]/div/div[3]/div[1]/a/@href
